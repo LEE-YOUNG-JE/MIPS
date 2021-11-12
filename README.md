@@ -18,6 +18,12 @@ register는 피연산자의 결과값들을 저장하기 위한 부분으로 메
 ## module Vr_HW2_MUX_S_sel_M_bits(EN, SEL, A, Y);
 먼저 S,M값에 따라 언제든지 변형될 수 있는 MUX를 설계하였다. EN=1이면 SEL번째의 A를 출력하도록 assign하였다. 변형 시킬 때는 parameter S,M값만 변경하면 된다.
 
+
+
+
+
+
+
 ## module Vr_HW2_N_to_S_dec(A, EN, Y);
 앞의 MUX와 마찬가지로 N,S값에 따라 언제든지 변경할 수 있도록 decoder를 설계하였다. EN=1일 때 2의거듭제곱수의 순서에 해당하는 값을 출력하도록 assign 하였다.
 
