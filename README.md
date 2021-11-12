@@ -49,3 +49,4 @@ Op5,Op4,Op3,Op2,Op1의 값에 따라서 나온 출력을 논리식에 따라 묶
 # module Vr_HW2_ALU_control
 always,if구문를 이용하여 ALUOp와 Funct의 값에 따라서 ALUCtrl 값을 010 또는 110을 출력으로 구현하였다.
 
+![image](https://user-images.githubusercontent.com/76897007/141432756-c102abb0-1542-4d54-9d63-56683908a5c1.png)
